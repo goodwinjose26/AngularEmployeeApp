@@ -9,6 +9,7 @@ import { SearchemployeeComponent } from './searchemployee/searchemployee.compone
 import { ViewemployeeComponent } from './viewemployee/viewemployee.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
+import { EditComponent } from './edit/edit.component';
 
 const myRoute:Routes=[
   {
@@ -26,6 +27,10 @@ const myRoute:Routes=[
   {
     path:"add",
     component:AddemployeeComponent
+  },
+  {
+    path:"edit",
+    component:EditComponent
   }
 ]
 
@@ -36,7 +41,8 @@ const myRoute:Routes=[
     AddemployeeComponent,
     SearchemployeeComponent,
     ViewemployeeComponent,
-    NavbarComponent
+    NavbarComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
