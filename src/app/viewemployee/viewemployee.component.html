@@ -6,80 +6,17 @@
             <tr>
               <th>Employee name</th>
               <th>Designation</th>
-              <th>Email</th>
-              <th>Salary</th>
-              <th>Company</th>
+              <th>PH</th>
             </tr>
-            <tr>
-              <td>arun</td>
-              <td>Accountant</td>
-              <td>Arun@gmail</td>
-              <td>10000</td>
-              <td>nest</td>
+            <tr *ngFor="let i of data">
+              <td>{{i.name}}</td>
+              <td>{{i.designation}}</td>
+              <td>{{i.ph}}</td>
             </tr>
-            <tr>
-                <td>akhil</td>
-                <td>Manager</td>
-                <td>akhil@gmail</td>
-                <td>100000</td>
-                <td>tcs</td>
-              </tr>
-              <tr>
-                <td>vimal</td>
-                <td>Accountant</td>
-                <td>vimal@gmail</td>
-                <td>15000</td>
-                <td>wipro</td>
-              </tr>
-              <tr>
-                <td>praveen</td>
-                <td>sales</td>
-                <td>praveen@gmail</td>
-                <td>20000</td>
-                <td>nest</td>
-              </tr>
-              <tr>
-                <td>ashna</td>
-                <td>HR</td>
-                <td>ashna@gmail</td>
-                <td>25000</td>
-                <td>capgemini</td>
-              </tr>
-              <tr>
-                <td>tom</td>
-                <td>developer</td>
-                <td>tom@gmail</td>
-                <td>100000</td>
-                <td>innovature</td>
-              </tr>
-              <tr>
-                <td>divin</td>
-                <td>hr</td>
-                <td>divin@gmail</td>
-                <td>30000</td>
-                <td>orion</td>
-              </tr>
-              <tr>
-                <td>ammu</td>
-                <td>Accountant</td>
-                <td>ammu@gmail</td>
-                <td>10000</td>
-                <td>ebay</td>
-              </tr>
-              <tr>
-                <td>appu</td>
-                <td>sales</td>
-                <td>appu@gmail</td>
-                <td>8000</td>
-                <td>tcs</td>
-              </tr>
-              <tr>
-                <td>amal</td>
-                <td>Accountant</td>
-                <td>amal@gmail</td>
-                <td>20000</td>
-                <td>nest</td>
-              </tr>
+        
+             
+             
+             
          
           </table>
       </div>
